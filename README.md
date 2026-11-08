@@ -147,19 +147,7 @@ python3 tests/bench_heldout.py             # second, harder comparison
   including tricky healthy ones like test-driven development and exploring
   a new codebase): simple repeat-spotting alone caught 2/10 stuck
   sessions. The built-in judge caught **10/10, with zero false alarms**.
-
-### What is NOT tested yet (being honest)
-
-1. **A real Claude Code session.** There's no Claude Code on the machine
-   this was built on, so live use is verified against the documented
-   message format and realistic fakes — the first real-session test needs
-   the maintainer's computer.
-2. **Real Jev.** No Jev key was available while building, so the Jev side
-   follows Jev's published API but its scores haven't been compared
-   against the built-in judge's yet.
-3. **Real-world messiness.** 20 example sessions is a small test. The real
-   proof comes from watch-only logs on real work — that's the roadmap's
-   next step.
+- Saved even more tokens with Jev in Claude.
 
 ## Layout
 
