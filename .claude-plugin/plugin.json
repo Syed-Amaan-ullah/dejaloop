@@ -1,0 +1,1 @@
+{"author":{"name":"TBD"},"description":"Live semantic brake for coding agents: detects sessions going in circles with deterministic checks + a built-in zero-cost local judge (optional TypeSafe Jev upgrade) and intervenes before tokens burn.","keywords":["claude-code","agent","loop-detection","jev","typesafe","cost"],"license":"MIT","name":"dejaloop","version":"0.1.0"}

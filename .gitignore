@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# DejaLoop runtime state (if DEJALOOP_HOME is pointed inside the repo)
+sessions/
+ledger.jsonl
+config.json
+.dejaloop/
